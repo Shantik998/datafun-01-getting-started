@@ -12,7 +12,7 @@ name = "GameBot"
 # Fix the code below to print the name using an f-string
 
 print()
-print("Hello, I'm {name}, your gamebot.")
+print(f"Hello, I'm {name}, your gamebot.")
 print("Let's play an animal guessing game!")
 print("There are 3 animals: wolf, eagle, snake (a Python of course).")
 print("The wolf scares the eagle.")
@@ -52,3 +52,17 @@ if user_choice == buddy_choice:
 # Run the code, and play the game a few times.
 # Copy the output from the terminal and paste it into 
 # a new file named xtra_p1out.txt.
+# answer
+
+
+Hello, I'm GameBot, your gamebot.
+Let's play an animal guessing game!
+There are 3 animals: wolf, eagle, snake (a Python of course).
+The wolf scares the eagle.
+The eagle grabs the snake.
+The snake bites the wolf.
+I'll pick one and you pick one and we'll see who wins.
+
+
+You said wolf.
+I said eagle.

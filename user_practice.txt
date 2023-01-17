@@ -19,3 +19,416 @@ hello
 >>> print( min (a, b))
 3
 >>> 
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Shantis-MacBook-Pro:datafun-01-getting-started shantikandel$ python
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+[Clang 10.0.0 ] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> ipython
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ipython' is not defined
+>>>  ipython
+  File "<stdin>", line 1
+    ipython
+    ^
+IndentationError: unexpected indent
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> 
+
+(base) Shantis-MacBook-Pro:datafun-01-getting-started shantikandel$ ipython
+Python 3.8.3 (default, Jul  2 2020, 11:26:31) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.7.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: 2+2
+Out[1]: 4
+
+In [2]: 45+72
+Out[2]: 117
+
+In [3]: x = 7
+
+In [4]: y = 3
+
+In [5]: x + y
+Out[5]: 10
+
+In [6]: total = x + y
+
+In [7]: total
+Out[7]: 10
+
+In [8]: type(x)
+Out[8]: int
+
+In [9]: type(10.5)
+Out[9]: float
+
+In [10]: type(x.0)
+  Cell In[10], line 1
+    type(x.0)
+          ^
+SyntaxError: invalid syntax
+
+
+In [11]: 7 * 4
+Out[11]: 28
+
+In [12]: 2**10
+Out[12]: 1024
+
+In [13]: 9**(1/2)
+Out[13]: 3.0
+
+In [14]: 7/4
+Out[14]: 1.75
+
+In [15]: 7//4
+Out[15]: 1
+
+In [16]: 10/5
+Out[16]: 2.0
+
+In [17]: 11//5
+Out[17]: 2
+
+In [18]: 11/5
+Out[18]: 2.2
+
+In [19]: 3//5
+Out[19]: 0
+
+In [20]: 14//7
+Out[20]: 2
+
+In [21]: -13/4
+Out[21]: -3.25
+
+In [22]: -13//4
+Out[22]: -4
+
+In [23]: total = 10.8 + 12.2 + 0.2
+
+In [24]: total
+Out[24]: 23.2
+
+In [25]: 3g
+  Cell In[25], line 1
+    3g
+     ^
+SyntaxError: invalid syntax
+
+
+In [26]: 87
+Out[26]: 87
+
+In [27]: score_4
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[27], line 1
+----> 1 score_4
+
+NameError: name 'score_4' is not defined
+
+In [28]: 123/0
+---------------------------------------------------------------------------
+ZeroDivisionError                         Traceback (most recent call last)
+Cell In[28], line 1
+----> 1 123/0
+
+ZeroDivisionError: division by zero
+
+In [29]: <ipython-input-10-cd759d3fcf39> in <module>()
+  Cell In[29], line 1
+    <ipython-input-10-cd759d3fcf39> in <module>()
+    ^
+SyntaxError: invalid syntax
+
+
+In [30]: z+ 7
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[30], line 1
+----> 1 z+ 7
+
+NameError: name 'z' is not defined
+
+In [31]: 17%5
+Out[31]: 2
+
+In [32]: 7.5%3.5
+Out[32]: 0.5
+
+In [33]: 10*(5+3)
+Out[33]: 80
+
+In [34]: 10*5+3
+Out[34]: 53
+
+In [35]: 3*(4-5)
+Out[35]: -3
+
+In [36]: 3*4-5
+Out[36]: 7
+
+In [37]: 4**3**2
+Out[37]: 262144
+
+In [38]: 4**3
+Out[38]: 64
+
+In [39]: 64**2
+Out[39]: 4096
+
+In [40]: 64*64
+Out[40]: 4096
+
+In [41]: 4**6
+Out[41]: 4096
+
+In [42]: 64**64
+Out[42]: 39402006196394479212279040100143613805079739270465446667948293404245721771497210611414266254884915640806627990306816
+
+In [43]: 64*64
+Out[43]: 4096
+
+In [44]: 4**9
+Out[44]: 262144
+
+In [45]: print('welcome to python')
+welcome to python
+
+In [46]: welcome to python
+  Cell In[46], line 1
+    welcome to python
+            ^
+SyntaxError: invalid syntax
+
+
+In [47]: print(welcome to python)
+  Cell In[47], line 1
+    print(welcome to python)
+                  ^
+SyntaxError: invalid syntax
+
+
+In [48]: print("welcome to python")
+welcome to python
+
+In [49]: print("4+7")
+4+7
+
+In [50]: print
+Out[50]: <function print>
+
+In [51]: 
+
+In [51]: 
+
+In [51]: 
+
+In [51]: 
+
+In [51]: 
+
+In [51]: 
+
+In [51]: print('welcome', 'to','python')
+welcome to python
+
+In [52]: print('welcome'\nto\n\npython')
+  Cell In[52], line 1
+    print('welcome'\nto\n\npython')
+                                   ^
+SyntaxError: unexpected character after line continuation character
+
+
+In [53]: print('welcome\nto\n\npython')
+welcome
+to
+
+python
+
+In [54]: print('welcomr\tto\thome')
+welcomr to      home
+
+In [55]: print('this is a longer string, so we \ ...: split it over two lines')
+this is a longer string, so we \ ...: split it over two lines
+
+In [56]: print('this is a longer string, so we \ split it over two line')
+this is a longer string, so we \ split it over two line
+
+In [57]: print('sum is', 7+3)
+sum is 10
+
+In [58]: type('word')
+Out[58]: str
+
+In [59]: print('int(5.2)', 'truncates 5.2 to', int(5.2))
+int(5.2) truncates 5.2 to 5
+
+In [60]: print ('display"hi"  in quotes')
+display"hi"  in quotes
+
+In [61]: print ('diplay 'hi' in quotes')
+  Cell In[61], line 1
+    print ('diplay 'hi' in quotes')
+                    ^
+SyntaxError: invalid syntax
+
+
+In [62]: print('display \'hi\' in quotes')
+display 'hi' in quotes
+
+In [63]: print("display the name 0'brian")
+display the name 0'brian
+
+In [64]: print("display\"hi\" in quotes")
+display"hi" in quotes
+
+In [65]: print("""display "hi" and 'bye' on quotes""")
+display "hi" and 'bye' on quotes
+
+In [66]: triple_quoted
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[66], line 1
+----> 1 triple_quoted
+
+NameError: name 'triple_quoted' is not defined
+
+In [67]: triple_quoted_string = """this is a triple-quoted...: string that spans two lines"""
+
+In [68]: print(triple_quoted_string)
+this is a triple-quoted...: string that spans two lines
+
+In [69]: triple_quoted_string = """this is a triple-quoted...: string that spans two lines"""
+
+In [70]: triple_quoted_string = """this is a triple-quoted ...: string that spans two lines"""
+
+In [71]: rint(triple_quoted_string)
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[71], line 1
+----> 1 rint(triple_quoted_string)
+
+NameError: name 'rint' is not defined
+
+In [72]: print(triple_quoted_string)
+this is a triple-quoted ...: string that spans two lines
+
+In [73]: triple_quoted_string = """this is a triple-quoted 
+    ...: string that spans two lines"""
+
+In [74]: print(triple_quoted_string)
+this is a triple-quoted 
+string that spans two lines
+
+In [75]: triple_quoted_string
+Out[75]: 'this is a triple-quoted \nstring that spans two lines'
+
+In [76]: print("""this is a lengthy
+    ...: multiline sting containg of a few lines \
+    ...: of text""")
+this is a lengthy
+multiline sting containg of a few lines of text
+
+In [77]: # 2.6 getting input from the user
+
+In [78]: name = input("whats your name ?")
+whats your name ?     
+
+In [79]: name = shanti
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+Cell In[79], line 1
+----> 1 name = shanti
+
+NameError: name 'shanti' is not defined
+
+In [80]: name = 'shanti'
+
+In [81]: name
+Out[81]: 'shanti'
+
+In [82]: print(name)
+shanti
+
+In [83]: value1 = input('enter first number: ')
+enter first number: 7
+
+In [84]: value2 = input('enter second number: ')
+enter second number: 3
+
+In [85]: value1 + value2
+Out[85]: '73'
+
+In [86]: value3 = input('enter first string:')
+enter first string:sandeep
+
+In [87]: value4 = input('enter first string:')
+enter first string:shanti
+
+In [88]: value3 + value4
+Out[88]: 'sandeepshanti'
+
+In [89]: value = input('enter an integar:')
+enter an integar:7
+
+In [90]: value = int(value)
+
+In [91]: value
+Out[91]: 7
+
+In [92]: another_value = int(input('enter another integar: '))
+enter another integar: 13
+
+In [93]: another_value
+Out[93]: 13
+
+In [94]: value + another_value
+Out[94]: 20
+
+In [95]: bad_value = int('enter another integar: '))
+  Cell In[95], line 1
+    bad_value = int('enter another integar: '))
+                                              ^
+SyntaxError: unmatched ')'
+
+
+In [96]: bad_value = int('enter another integer:'))
+  Cell In[96], line 1
+    bad_value = int('enter another integer:'))
+                                             ^
+SyntaxError: unmatched ')'
+
+
+In [97]: bad_value = int('enter another integer: '))
+  Cell In[97], line 1
+    bad_value = int('enter another integer: '))
+                                              ^
+SyntaxError: unmatched ')'
+
+
+In [98]: bad_value = int(input('enter another integer: '))
+enter another integer: hello
+---------------------------------------------------------------------------
+ValueError                                Traceback (most recent call last)
+Cell In[98], line 1
+----> 1 bad_value = int(input('enter another integer: '))
+
+ValueError: invalid literal for int() with base 10: 'hello'
+
+In [99]: int(10.2)
+Out[99]: 10
+
+In [100]: int(10.9999)
+Out[100]: 10
+
+In [101]: float('6.2')*3.3
+Out[101]: 20.46

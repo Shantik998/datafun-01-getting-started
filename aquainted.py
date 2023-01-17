@@ -17,16 +17,22 @@ Each line below is a statement.
 
 # print an empty line to the screen
 print()
+print("lovely people")
+
 
 # print a string to the screen
 print("Greetings!")
 
 # get input from the user
 name = input("What is your name?: ")
+name = "shanti"
+
 
 # use what you got
 print("Hello " + name.capitalize() + "!")
 print()
+
+
 
 # Let's do some math and show off our skills
 

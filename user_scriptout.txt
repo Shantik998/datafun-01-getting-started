@@ -1,1 +1,79 @@
 # Paste the output from a sample run here.
+
+temp1 = int(input('enter the first temperature.'))
+temp2 = int(input('enter the second temperature.'))
+temp3 = float(input('enter third temperature.'))
+print('temp1')
+print('temp2')
+print('temp3')
+#sum 
+print('temp1'+'temp2'+'temp3')
+#average
+average= sum/3
+#product
+product=temp1*temp2*temp3
+#smallest 
+smallest = min(temp1, temp2, temp3)
+#largest
+largest= max(temp1, temp2, temp3)
+
+#Output in interactive mode
+
+
+In [1]: temp1 = int(input('enter the first temperature.'))
+enter the first temperature.45
+
+In [2]: temp2 = int(input('enter the second temperature.'))
+enter the second temperature.50
+
+In [3]: temp3 = float(input('enter third temperature.'))
+enter third temperature.65.5
+
+In [4]: temp1
+Out[4]: 45
+
+In [5]: temp2
+Out[5]: 50
+
+In [6]: temp3
+Out[6]: 65.5
+
+In [7]: sum= temp1+temp2+temp3
+
+In [8]: temp1+ temp2+temp3
+Out[8]: 160.5
+
+In [9]: sum
+Out[9]: 160.5
+
+In [10]: average= sum/3
+
+In [11]: sum/3
+Out[11]: 53.5
+
+In [12]: average
+Out[12]: 53.5
+
+In [13]: product = temp1* temp2 * temp3
+
+In [14]: temp1* temp2* temp3
+Out[14]: 147375.0
+
+In [15]: product
+Out[15]: 147375.0
+
+In [16]: smallest = min(temp1, temp2, temp3)
+
+In [17]: min(temp1, temp2, temp3)
+Out[17]: 45
+
+In [18]: smallest
+Out[18]: 45
+
+In [19]: largest = max(temp1, temp2, temp3)
+
+In [20]: max(temp1, temp2, temp3)
+Out[20]: 65.5
+
+In [21]: largest
+Out[21]: 65.5
